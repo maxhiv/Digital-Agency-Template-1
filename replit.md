@@ -6,6 +6,8 @@ This is a static website template called "Digitics" - a creative digital agency 
 ✅ **SETUP COMPLETE** - The project has been successfully configured for the Replit environment and is ready for use.
 
 ### Latest Changes (October 10, 2025)
+- **Background Restoration**: Reverted the "Why Choose Us" section background (`why-choose-us-bg.jpg`) to its original image
+  - Restored from git history to replace the stock image that was previously applied
 - **Stock Image Replacement**: Replaced all placeholder images throughout the website with contextually appropriate professional stock photography
   - 42 JPG images replaced: blog posts, user profiles, services, case studies, process workflows, backgrounds
   - 10+ PNG images replaced: banner images, app screenshots, user avatars for alternate layouts
