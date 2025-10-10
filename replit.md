@@ -6,6 +6,10 @@ This is a static website template called "Digitics" - a creative digital agency 
 ✅ **SETUP COMPLETE** - The project has been successfully configured for the Replit environment and is ready for use.
 
 ### Latest Changes (October 10, 2025)
+- **Homepage Cleanup**: Removed Home 2 and Home 3 pages completely
+  - Deleted `index-2.html` and `index-3.html` files
+  - Simplified navigation by replacing Home dropdown menu with direct link to Home page
+  - Updated all page headers to reflect the simplified navigation structure
 - **Background Restoration**: Reverted the "Why Choose Us" section background (`why-choose-us-bg.jpg`) to its original image
   - Restored from git history to replace the stock image that was previously applied
 - **Stock Image Replacement**: Replaced all placeholder images throughout the website with contextually appropriate professional stock photography
