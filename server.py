@@ -19,6 +19,7 @@ def run_server():
     # Change to the directory containing the HTML files
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     
+    socketserver.TCPServer.allow_reuse_address = True
     with socketserver.TCPServer((HOST, PORT), CustomHTTPRequestHandler) as httpd:
         print(f"Server running at http://{HOST}:{PORT}/")
         print("Press Ctrl+C to stop the server")
