@@ -17,6 +17,7 @@
 - **PROFESSIONAL IMAGE UPDATES (Today - Latest)**
   - Added 18 professional stock images to assets/img folder
   - Replaced all placeholder images across homepage, about, and services pages:
+    - Hero banner sliders (4 images): team-collaboration.jpg, data-analytics.jpg, marketing-brainstorm.jpg, tech-interface.jpg
     - Work process images: marketing-brainstorm.jpg, team-collaboration.jpg, data-analytics.jpg
     - About page: team-working.jpg, innovation-ideas.jpg
     - Contact section backgrounds: tech-interface.jpg
