@@ -220,6 +220,8 @@ button {
 }
 .logo {
   max-width: clamp(130px, 11.56vw, 220px);
+  max-height: 50px;
+  object-fit: contain;
 }
 
 .ul-bs-row {
