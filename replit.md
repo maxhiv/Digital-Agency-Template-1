@@ -1,6 +1,6 @@
 # Overview
 
-This is a static website template called "Digitics" - a creative digital agency and tech firm template. The project is a multi-page HTML website featuring modern design elements, responsive layouts, and interactive components. It includes various pages such as home, about, services, projects, blog, team, contact, FAQ, and pricing sections. The template is designed for digital agencies, tech companies, or creative firms looking for a professional web presence.
+This is a static website template called "Leadstack Marketing" - a creative digital agency and tech firm template. The project is a multi-page HTML website featuring modern design elements, responsive layouts, and interactive components. It includes various pages such as home, about, services, projects, blog, team, contact, FAQ, and pricing sections. The template is designed for digital agencies, tech companies, or creative firms looking for a professional web presence.
 
 ## Project Status
 ✅ **SETUP COMPLETE** - The project has been successfully configured for the Replit environment and is ready for use.

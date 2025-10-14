@@ -1,0 +1,520 @@
+You are a senior frontend engineer + content/AEO strategist. I’ve imported the Envato “Digitics” template (https://digitics.temptics.com/). Rebrand and customize the entire project for **Leadstack Marketing**, add robust Structured Data (JSON-LD) for AEO, include a JSON-LD linter/deduper, and add an automated **update-brand** script.
+
+(Keep EVERYTHING below intact and perform all tasks.)
+
+====================
+GLOBAL BRAND + RULES
+====================
+Brand: Leadstack Marketing
+Tagline: “Stack your leads. Simplify your growth.”
+Services:
+- Lead Generation
+- Google Business Profile Optimization
+- Search Engine Optimization (SEO)
+- Answer Engine Optimization (AEO)
+- Website Design
+- Landing Page Design
+- Email Marketing
+- Content Marketing
+- Backlinks
+- Digital Real Estate
+
+Tone: confident, practical, outcome-focused. Short, high-impact sentences.
+Primary area: Gulf Coast (Baldwin & Mobile Counties, AL) + nationwide remote.
+
+Contact:
+- Phone: (251) 555-0199
+- Email: hello@leadstackmarketing.com
+- HQ: Fairhope, Alabama
+- Hours: Mon–Fri, 8 AM–5 PM CT
+
+Brand colors:
+- Primary: #2563EB
+- Secondary: #7C3AED
+- Accent: #10B981
+- Dark: #0F172A
+- Light: #F8FAFC
+Typography: Poppins (headings 600/700), Inter (body 400/500)
+
+Assets (create if missing):
+- /assets/brand/leadstack-logo.svg
+- /assets/brand/leadstack-logo-white.svg
+- /assets/brand/favicon.png (blue “L-stack”)
+
+CTAs:
+- Primary: “Get Free Growth Plan”
+- Secondary: “Book a Strategy Call”
+
+====================
+PROJECT-WIDE TASKS
+====================
+1) Remove all “Digitics/Temptics/Envato” text/images. Replace with Leadstack content.
+2) Update nav/footer/headers, unify button variants, keep responsiveness/animations.
+3) Inject Open Graph, Twitter Cards, canonical, robots.txt, sitemap.html (+ sitemap.xml if supported).
+4) Add **structured data (JSON-LD)** in <head> across pages; **dedupe** if already present.
+5) Accessibility AA+: alt text, focus states, ARIA labels, color contrast.
+6) Performance: lazy-load, responsive images, width/height, font preloads, minify CSS/JS.
+
+====================
+SERVICE SECTION COPY (USE IN services.html + cards/sections)
+====================
+1) Lead Generation — Headline: Turn Traffic Into Predictable Leads
+Body: Stop chasing. Start stacking. We design systems that capture, qualify, and deliver leads on autopilot—from local search to paid campaigns.
+Bullets: Automated funnels; CRM-ready forms & call tracking; Segmentation & retargeting.
+CTA: Get Free Growth Plan
+
+2) Google Business Profile Optimization — Headline: Dominate Local Search & Maps
+Body: Your GBP is your digital storefront. We optimize categories, visuals, posts, and keywords to make you the #1 choice in Maps.
+Bullets: Full GBP audit/optimization; Geo-tagged images & keyworded posts; Review engine & responses.
+CTA: Boost My Profile
+
+3) Search Engine Optimization (SEO) — Headline: Rank Higher. Stay There.
+Body: On-page precision, technical health, and content that captures intent—SEO that converts.
+Bullets: Site audit + keyword mapping; Technical fixes; Monthly ROI reporting.
+CTA: Get SEO Audit
+
+4) Answer Engine Optimization (AEO) — Headline: Get Found in AI Answers
+Body: Voice/AI results are changing discovery. AEO ensures your business becomes the answer.
+Bullets: Schema & structured content; Conversational Q&A; Snippet & PAA targeting.
+CTA: Add AEO Strategy
+
+5) Website Design — Headline: Websites Built to Convert, Not Just Impress
+Body: Clean, fast, responsive builds engineered for SEO and lead flow.
+Bullets: Modern frameworks; SEO foundations; Analytics & conversion testing.
+CTA: Design My Website
+
+6) Landing Page Design — Headline: High-Converting Pages for Every Campaign
+Body: Pages engineered to turn ad clicks into calls—clear messaging and frictionless UX.
+Bullets: A/B tested patterns; Dynamic keyword insertion; Mobile-first speed.
+CTA: Build My Landing Page
+
+7) Email Marketing — Headline: Turn Subscribers Into Lifetime Customers
+Body: Automated journeys that nurture, convert, and retain—every message with a purpose.
+Bullets: Segmentation/personalization; Proven templates; CRM/e-comm integrations.
+CTA: Start My Email Campaign
+
+8) Content Marketing — Headline: Content That Builds Trust and Traffic
+Body: Strategy → production → distribution. Authority you can measure.
+Bullets: Keyword-aligned topics; SEO articles/assets; Calendar + performance tracking.
+CTA: Plan My Content
+
+9) Backlinks — Headline: Build Authority the Right Way
+Body: Quality, relevance, relationships—not spam. Links that earn trust.
+Bullets: Manual outreach; Local citations/niche directories; White-hat only.
+CTA: Grow My Authority
+
+10) Digital Real Estate — Headline: Own the Space Before Your Competitors Do
+Body: We build and rank niche local sites that route calls/leads to you—exclusive territories available.
+Bullets: Build-rank-rent model; Exclusive markets; PPL or rev-share options.
+CTA: Explore Digital Real Estate
+
+====================
+BLOG POST SEED CONTENT (CREATE IN blog/)
+====================
+Post 1 — “Google Business Profile Secrets for 2025: How to Rank in the Map Pack”
+Excerpt: Learn how AI-powered local results work and why keyword-rich GBP posts and Q&A updates matter more than ever.
+Key points: Categories & sub-categories; 2–3 posts/week; EXIF geo-data.
+CTA: Download the Free GBP Checklist
+
+Post 2 — “What Is Answer Engine Optimization (AEO) & Why It’s the Next SEO”
+Excerpt: AI assistants replace blue links with direct answers. Make your business the answer.
+Key points: Schema + Q&A; Conversational, answer-first copy; Snippets & voice.
+CTA: Add AEO to Your Strategy
+
+Post 3 — “Landing Pages That Convert: 5 Principles We Use on Every Campaign”
+Excerpt: The secret to growth isn’t more traffic—it’s better conversion.
+Key points: Clear headline + single CTA; Social proof above the fold; Fast, distraction-free.
+CTA: Get a Free Landing Page Audit
+
+====================
+PAGE TITLES & META (APPLY)
+====================
+Home — Title: Leadstack Marketing | Lead Gen, GBP, SEO & AEO
+Home — Description: Leadstack Marketing drives calls and leads with GBP optimization, SEO/AEO, and conversion-focused web design. Get your free growth plan.
+Services — Title: Marketing Services | Leadstack Marketing
+Services — Description: Lead gen, GBP optimization, SEO/AEO, web & landing pages, email/content marketing, backlinks, and digital real estate.
+Pricing — Title: Pricing & Packages | Leadstack Marketing
+Pricing — Description: Starter, Growth, or Scale—transparent packages built to stack your leads.
+Case Studies — Title: Case Studies & Results | Leadstack Marketing
+Case Studies — Description: See how our strategies increased calls, traffic, and conversions.
+About — Title: About Leadstack Marketing
+About — Description: A conversion-first team focused on outcomes—clear plans, fast execution, measurable growth.
+Blog — Title: Insights & Playbooks | Leadstack Marketing
+Blog — Description: Practical tactics on GBP, SEO/AEO, CRO, and local marketing.
+Contact — Title: Contact Leadstack Marketing
+Contact — Description: Book a strategy call or request your free growth plan.
+
+====================
+STRUCTURED DATA (JSON-LD)
+====================
+Include site-wide (Organization, LocalBusiness, WebSite/SearchAction, BreadcrumbList), per-service “Service”, FAQPage, and BlogPosting JSON-LD exactly as previously specified. Use absolute URLs. Reuse @id anchors. Linter/deduper will validate.
+
+====================
+FILE STRUCTURE & AUTOMATION
+====================
+Create /brand.config.json (values below) and these scripts:
+- /scripts/jsonld-lint.js  (already specified earlier)
+- /scripts/postbuild.sh    (already specified earlier)
+- /scripts/update-brand.js (NEW, below)
+
+brand.config.json:
+{
+  "brandName": "Leadstack Marketing",
+  "tagline": "Stack your leads. Simplify your growth.",
+  "phone": "(251) 555-0199",
+  "email": "hello@leadstackmarketing.com",
+  "hqCity": "Fairhope, Alabama",
+  "hours": "Mon–Fri, 8am–5pm CT",
+  "primaryColor": "#2563EB",
+  "secondaryColor": "#7C3AED",
+  "accentColor": "#10B981",
+  "darkColor": "#0F172A",
+  "lightColor": "#F8FAFC",
+  "primaryCta": "Get Free Growth Plan",
+  "secondaryCta": "Book a Strategy Call",
+  "services": [
+    "Lead Generation",
+    "Google Business Profile Optimization",
+    "Search Engine Optimization (SEO)",
+    "Answer Engine Optimization (AEO)",
+    "Website Design",
+    "Landing Page Design",
+    "Email Marketing",
+    "Content Marketing",
+    "Backlinks",
+    "Digital Real Estate"
+  ],
+  "pages": {
+    "index.html": {
+      "title": "Leadstack Marketing | Lead Gen, GBP, SEO & AEO",
+      "description": "Leadstack Marketing drives calls and leads with GBP optimization, SEO/AEO, and conversion-focused web design. Get your free growth plan."
+    },
+    "services.html": {
+      "title": "Marketing Services | Leadstack Marketing",
+      "description": "Lead gen, GBP optimization, SEO/AEO, web & landing pages, email/content marketing, backlinks, and digital real estate."
+    },
+    "pricing.html": {
+      "title": "Pricing & Packages | Leadstack Marketing",
+      "description": "Starter, Growth, or Scale—transparent packages built to stack your leads."
+    },
+    "case-studies.html": {
+      "title": "Case Studies & Results | Leadstack Marketing",
+      "description": "See how our strategies increased calls, traffic, and conversions."
+    },
+    "about.html": {
+      "title": "About Leadstack Marketing",
+      "description": "A conversion-first team focused on outcomes—clear plans, fast execution, measurable growth."
+    },
+    "blog.html": {
+      "title": "Insights & Playbooks | Leadstack Marketing",
+      "description": "Practical tactics on GBP, SEO/AEO, CRO, and local marketing."
+    },
+    "contact.html": {
+      "title": "Contact Leadstack Marketing",
+      "description": "Book a strategy call or request your free growth plan."
+    }
+  }
+}
+
+====================
+CREATE: /scripts/update-brand.js
+====================
+/* Update-brand script for Leadstack Marketing
+ * - Applies brand config to HTML/CSS
+ * - Replaces legacy branding and placeholders
+ * - Injects page-specific <title> and <meta name="description">
+ * - Ensures CTAs, phone, email, and colors are consistent
+ * - Injects JSON-LD shell blocks if missing (site-wide only; per-service handled in content step)
+ */
+
+const fs = require("fs");
+const path = require("path");
+
+const ROOT = process.env.SCAN_ROOT || "public";
+const CONFIG_PATH = path.join(process.cwd(), "brand.config.json");
+const ignoreDirs = new Set(["node_modules", ".git", "vendor", "dist", "build"]);
+const HTML_EXT = /\.(html?|php|njk|ejs|md)$/i;
+const CSS_EXT = /\.(css|scss)$/i;
+
+if (!fs.existsSync(CONFIG_PATH)) {
+  console.error(`[update-brand] Missing brand.config.json at ${CONFIG_PATH}`);
+  process.exit(1);
+}
+const cfg = JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"));
+const brand = {
+  name: cfg.brandName || "Leadstack Marketing",
+  tagline: cfg.tagline || "",
+  phone: cfg.phone || "",
+  email: cfg.email || "",
+  hqCity: cfg.hqCity || "",
+  hours: cfg.hours || "",
+  colors: {
+    primary: cfg.primaryColor,
+    secondary: cfg.secondaryColor,
+    accent: cfg.accentColor,
+    dark: cfg.darkColor,
+    light: cfg.lightColor
+  },
+  ctas: {
+    primary: cfg.primaryCta || "Get Free Growth Plan",
+    secondary: cfg.secondaryCta || "Book a Strategy Call"
+  },
+  pages: cfg.pages || {}
+};
+
+const htmlFiles = [];
+const cssFiles = [];
+
+function walk(dir) {
+  if (ignoreDirs.has(path.basename(dir))) return;
+  for (const f of fs.readdirSync(dir)) {
+    const p = path.join(dir, f);
+    const s = fs.statSync(p);
+    if (s.isDirectory()) walk(p);
+    else if (HTML_EXT.test(f)) htmlFiles.push(p);
+    else if (CSS_EXT.test(f)) cssFiles.push(p);
+  }
+}
+
+// --- Helpers
+function injectOrReplaceTitleAndMeta(html, title, desc) {
+  if (title) {
+    if (/<title>.*?<\/title>/is.test(html)) {
+      html = html.replace(/<title>.*?<\/title>/is, `<title>${title}</title>`);
+    } else {
+      html = html.replace(/<\/head>/i, `  <title>${title}</title>\n</head>`);
+    }
+  }
+  if (desc) {
+    if (/<meta[^>]+name=["']description["'][^>]*>/i.test(html)) {
+      html = html.replace(
+        /<meta[^>]+name=["']description["'][^>]*>/i,
+        `<meta name="description" content="${desc}">`
+      );
+    } else {
+      html = html.replace(/<\/head>/i, `  <meta name="description" content="${desc}">\n</head>`);
+    }
+  }
+  return html;
+}
+
+function ensureInHead(html, blockId, content) {
+  if (html.includes(blockId)) return html; // already present
+  return html.replace(/<\/head>/i, `${content}\n</head>`);
+}
+
+function replaceBranding(html) {
+  const patterns = [
+    /Digitics/gi,
+    /Temptics/gi,
+    /Envato Elements/gi
+  ];
+  for (const re of patterns) html = html.replace(re, brand.name);
+
+  // Replace common lorem ipsum
+  html = html.replace(/Lorem ipsum[^<]*</gi, `${brand.tagline}<`);
+
+  // Phone & email placeholders
+  html = html.replace(/\(\d{3}\)\s?\d{3}-\d{4}/g, brand.phone || "$&");
+  html = html.replace(/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/gi, brand.email || "$&");
+
+  // CTA normalization
+  html = html
+    .replace(/>(Get Started|Start Now|Contact Us|Get Quote|Free Quote)<\/a>/gi, `>${brand.ctas.primary}</a>`)
+    .replace(/>(Book a Call|Schedule Call|Schedule a Call)<\/a>/gi, `>${brand.ctas.secondary}</a>`);
+
+  return html;
+}
+
+function injectSiteWideSchemas(html) {
+  const ORG_ID = "https://www.leadstackmarketing.com/#org";
+  const AGENCY_ID = "https://www.leadstackmarketing.com/#agency";
+  const WEBSITE_ID = "https://www.leadstackmarketing.com/#website";
+
+  const org = `
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "${ORG_ID}",
+  "name": "Leadstack Marketing",
+  "url": "https://www.leadstackmarketing.com/",
+  "logo": "https://www.leadstackmarketing.com/assets/brand/leadstack-logo.svg",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+1-251-555-0199",
+    "contactType": "sales",
+    "areaServed": "US"
+  }],
+  "sameAs": []
+}
+</script>`.trim();
+
+  const agency = `
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "${AGENCY_ID}",
+  "name": "Leadstack Marketing",
+  "image": "https://www.leadstackmarketing.com/assets/brand/leadstack-logo.svg",
+  "url": "https://www.leadstackmarketing.com/",
+  "telephone": "+1-251-555-0199",
+  "priceRange": "$$",
+  "address": { "@type": "PostalAddress", "addressLocality": "Fairhope", "addressRegion": "AL", "addressCountry": "US" },
+  "areaServed": { "@type": "AdministrativeArea", "name": "Gulf Coast (Baldwin & Mobile Counties, AL)" },
+  "openingHours": "Mo-Fr 08:00-17:00",
+  "parentOrganization": { "@id": "${ORG_ID}" }
+}
+</script>`.trim();
+
+  const website = `
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "@id":"${WEBSITE_ID}",
+  "url":"https://www.leadstackmarketing.com/",
+  "name":"Leadstack Marketing",
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://www.leadstackmarketing.com/search?q={query}",
+    "query-input":"required name=query"
+  }
+}
+</script>`.trim();
+
+  const breadcrumb = `
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.leadstackmarketing.com/"}
+  ]
+}
+</script>`.trim();
+
+  html = ensureInHead(html, "#org", org);
+  html = ensureInHead(html, "#agency", agency);
+  html = ensureInHead(html, "#website", website);
+  html = ensureInHead(html, '"BreadcrumbList"', breadcrumb);
+
+  return html;
+}
+
+function applyPageMapping(file, html) {
+  const basename = path.basename(file);
+  const page = brand.pages[basename];
+  if (!page) return html;
+  return injectOrReplaceTitleAndMeta(html, page.title, page.description);
+}
+
+function rewriteColors(css) {
+  let out = css;
+  const colorMap = new Map([
+    // common template blues/purples/greens → brand palette (best-effort)
+    [/#3b82f6/gi, brand.colors.primary],
+    [/#6366f1/gi, brand.colors.secondary],
+    [/#22c55e/gi, brand.colors.accent],
+    [/#0f172a/gi, brand.colors.dark],
+    [/#f8fafc/gi, brand.colors.light]
+  ]);
+  for (const [from, to] of colorMap) {
+    if (to) out = out.replace(from, to);
+  }
+  // CSS variables if present
+  out = out
+    .replace(/(--primary(?:-color)?\s*:\s*)(#[0-9a-f]{3,8}|rgb\([^)]+\))/gi, `$1${brand.colors.primary}`)
+    .replace(/(--secondary(?:-color)?\s*:\s*)(#[0-9a-f]{3,8}|rgb\([^)]+\))/gi, `$1${brand.colors.secondary}`)
+    .replace(/(--accent(?:-color)?\s*:\s*)(#[0-9a-f]{3,8}|rgb\([^)]+\))/gi, `$1${brand.colors.accent}`)
+    .replace(/(--dark(?:-color)?\s*:\s*)(#[0-9a-f]{3,8}|rgb\([^)]+\))/gi, `$1${brand.colors.dark}`)
+    .replace(/(--light(?:-color)?\s*:\s*)(#[0-9a-f]{3,8}|rgb\([^)]+\))/gi, `$1${brand.colors.light}`);
+  return out;
+}
+
+function main() {
+  walk(ROOT);
+
+  // CSS first
+  for (const cssFile of cssFiles) {
+    const css = fs.readFileSync(cssFile, "utf8");
+    const out = rewriteColors(css);
+    if (out !== css) fs.writeFileSync(cssFile, out, "utf8");
+  }
+
+  // HTML/others
+  for (const file of htmlFiles) {
+    let html = fs.readFileSync(file, "utf8");
+
+    // Replace branding, phone/email, CTAs
+    let updated = replaceBranding(html);
+
+    // Page titles & meta
+    updated = applyPageMapping(file, updated);
+
+    // Insert sitewide schemas if missing
+    updated = injectSiteWideSchemas(updated);
+
+    // Add favicon if missing
+    if (!/rel=["']icon["']/i.test(updated)) {
+      updated = updated.replace(
+        /<\/head>/i,
+        `  <link rel="icon" href="/assets/brand/favicon.png">\n</head>`
+      );
+    }
+
+    // Ensure fonts (Poppins/Inter) are referenced (best-effort)
+    if (!/Poppins/i.test(updated) || !/Inter/i.test(updated)) {
+      updated = updated.replace(
+        /<\/head>/i,
+        `  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet">\n</head>`
+      );
+    }
+
+    if (updated !== html) fs.writeFileSync(file, updated, "utf8");
+  }
+
+  console.log(`[update-brand] Complete. Files updated: HTML=${htmlFiles.length}, CSS=${cssFiles.length}`);
+}
+
+if (require.main === module) main();
+
+====================
+PACKAGE.JSON SCRIPTS (ADD OR MERGE)
+====================
+{
+  "name": "leadstack-marketing-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --open --strictPort || http-server public -p 5173",
+    "build": "vite build || echo 'No Vite config; skipping' && npm run schema:lint",
+    "schema:lint": "node scripts/jsonld-lint.js",
+    "postbuild": "bash scripts/postbuild.sh",
+    "update-brand": "node scripts/update-brand.js"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "html-minifier-terser": "^7.2.0"
+  }
+}
+
+====================
+FORMS & INTEGRATIONS
+====================
+- /api/contact and /api/newsletter: simple POST handlers with validation + honeypot (create if missing).
+- Add GA4 and GTM placeholders in <head>.
+- Add Open Graph defaults and page-specific overrides.
+
+====================
+DELIVERABLES
+====================
+- Fully rebranded site with service copy, blog seeds, and JSON-LD implemented.
+- brand.config.json + “update-brand” script (npm run update-brand).
+- robots.txt, sitemap.html (+ sitemap.xml if possible).
+- JSON-LD linter/deduper integrated (npm run schema:lint; postbuild hook).
+- /api/contact and /api/newsletter endpoints (or graceful no-op if static).
+- Lighthouse ≥90 Performance/Accessibility/Best Practices/SEO.
+
+IMPORTANT: Maintain template polish and responsiveness. Remove all demo text/images. Use keyworded alt text and internal links between services, case studies, and blog posts.

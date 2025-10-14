@@ -1,0 +1,57 @@
+{
+  "brandName": "Leadstack Marketing",
+  "tagline": "Stack your leads. Simplify your growth.",
+  "phone": "(251) 555-0199",
+  "email": "hello@leadstackmarketing.com",
+  "hqCity": "Fairhope, Alabama",
+  "hours": "Mon–Fri, 8am–5pm CT",
+  "primaryColor": "#2563EB",
+  "secondaryColor": "#7C3AED",
+  "accentColor": "#10B981",
+  "darkColor": "#0F172A",
+  "lightColor": "#F8FAFC",
+  "primaryCta": "Get Free Growth Plan",
+  "secondaryCta": "Book a Strategy Call",
+  "services": [
+    "Lead Generation",
+    "Google Business Profile Optimization",
+    "Search Engine Optimization (SEO)",
+    "Answer Engine Optimization (AEO)",
+    "Website Design",
+    "Landing Page Design",
+    "Email Marketing",
+    "Content Marketing",
+    "Backlinks",
+    "Digital Real Estate"
+  ],
+  "pages": {
+    "index.html": {
+      "title": "Leadstack Marketing | Lead Gen, GBP, SEO & AEO",
+      "description": "Leadstack Marketing drives calls and leads with GBP optimization, SEO/AEO, and conversion-focused web design. Get your free growth plan."
+    },
+    "services.html": {
+      "title": "Marketing Services | Leadstack Marketing",
+      "description": "Lead gen, GBP optimization, SEO/AEO, web & landing pages, email/content marketing, backlinks, and digital real estate."
+    },
+    "pricing.html": {
+      "title": "Pricing & Packages | Leadstack Marketing",
+      "description": "Starter, Growth, or Scale—transparent packages built to stack your leads."
+    },
+    "case-studies.html": {
+      "title": "Case Studies & Results | Leadstack Marketing",
+      "description": "See how our strategies increased calls, traffic, and conversions."
+    },
+    "about.html": {
+      "title": "About Leadstack Marketing",
+      "description": "A conversion-first team focused on outcomes—clear plans, fast execution, measurable growth."
+    },
+    "blog.html": {
+      "title": "Insights & Playbooks | Leadstack Marketing",
+      "description": "Practical tactics on GBP, SEO/AEO, CRO, and local marketing."
+    },
+    "contact.html": {
+      "title": "Contact Leadstack Marketing",
+      "description": "Book a strategy call or request your free growth plan."
+    }
+  }
+}
