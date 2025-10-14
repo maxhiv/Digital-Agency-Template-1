@@ -8,12 +8,19 @@
 - Location: Fairhope, Alabama (Gulf Coast + nationwide)
 - Contact: (251) 555-0199 | hello@leadstackmarketing.com
 
-**Services:** Lead Generation, Google Business Profile Optimization, SEO, Answer Engine Optimization (AEO), Website Design, Landing Pages, Email Marketing, Content Marketing, Backlinks, Digital Real Estate
+**Services:** Lead Generation, Google Business Profile Optimization, SEO, Answer Engine Optimization (AEO), Website Design, Landing Pages, Email Marketing, Content Marketing, Backlinks, Digital Real Estate, Google Ad Management, Meta Ad Management
 
 ## Project Status
 ✅ **SETUP COMPLETE** - The project has been successfully configured for the Replit environment and is ready for use.
 
 ### Latest Changes (October 14, 2025)
+- **SERVICE EXPANSION (Today)**
+  - Added Google Ad Management service with Google logo image
+  - Added Meta Ad Management service with Meta logo image
+  - Updated service images: SEO (scrabble tiles), Digital Real Estate (for sale sign)
+  - Total services expanded from 10 to 12
+  - Updated brand.config.json and sitemap.html
+
 - **COMPLETE REBRAND TO LEADSTACK MARKETING**
   - Rebranded entire site from Digitics template to Leadstack Marketing
   - Brand identity: "Stack your leads. Simplify your growth."
