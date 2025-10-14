@@ -1,29 +1,44 @@
 # Overview
 
-This is a static website template called "Leadstack Marketing" - a creative digital agency and tech firm template. The project is a multi-page HTML website featuring modern design elements, responsive layouts, and interactive components. It includes various pages such as home, about, services, projects, blog, team, contact, FAQ, and pricing sections. The template is designed for digital agencies, tech companies, or creative firms looking for a professional web presence.
+**Leadstack Marketing** is a conversion-focused digital marketing agency website specializing in lead generation, SEO/AEO, and growth strategies. The project is a fully customized multi-page HTML website featuring modern design elements, responsive layouts, structured data (JSON-LD) for AEO, and conversion-optimized components.
+
+**Brand:**
+- Name: Leadstack Marketing  
+- Tagline: "Stack your leads. Simplify your growth."
+- Location: Fairhope, Alabama (Gulf Coast + nationwide)
+- Contact: (251) 555-0199 | hello@leadstackmarketing.com
+
+**Services:** Lead Generation, Google Business Profile Optimization, SEO, Answer Engine Optimization (AEO), Website Design, Landing Pages, Email Marketing, Content Marketing, Backlinks, Digital Real Estate
 
 ## Project Status
 ✅ **SETUP COMPLETE** - The project has been successfully configured for the Replit environment and is ready for use.
 
-### Latest Changes (October 10, 2025)
-- **Section Removal**: Removed "Why Choose Us" section from homepage
-  - Deleted the entire section including "Seeing The Full potential of Your Brand" heading
-  - Removed Quality Result, Best Team Members, and High Success Rate features
-- **AI Technology Image**: Replaced placeholder image with AI/technology themed photo
-  - Updated `functions-ss.png` with artificial intelligence and business technology image
-  - Note: This image was previously used in deleted Home 2 page
-- **Homepage Cleanup**: Removed Home 2 and Home 3 pages completely
-  - Deleted `index-2.html` and `index-3.html` files
-  - Simplified navigation by replacing Home dropdown menu with direct link to Home page
-  - Updated all page headers to reflect the simplified navigation structure
-- **Background Restoration**: Reverted the "Why Choose Us" section background (`why-choose-us-bg.jpg`) to its original image
-  - Restored from git history to replace the stock image that was previously applied
-- **Stock Image Replacement**: Replaced all placeholder images throughout the website with contextually appropriate professional stock photography
-  - 42 JPG images replaced: blog posts, user profiles, services, case studies, process workflows, backgrounds
-  - 10+ PNG images replaced: banner images, app screenshots, user avatars for alternate layouts
-  - All images matched to their contextual headers (e.g., Digital Marketing → business meeting, SEO Analytics → dashboard, etc.)
-- Server socket reuse enabled (`allow_reuse_address = True`) to prevent port conflicts on restart
-- Verified all images loading successfully (HTTP 200 status) via server logs and screenshots
+### Latest Changes (October 14, 2025)
+- **COMPLETE REBRAND TO LEADSTACK MARKETING**
+  - Rebranded entire site from Digitics template to Leadstack Marketing
+  - Brand identity: "Stack your leads. Simplify your growth."
+  - New color scheme: Primary #2563EB, Secondary #7C3AED, Accent #10B981
+  - Contact: (251) 555-0199, hello@leadstackmarketing.com, Fairhope, AL
+  
+- **Brand Infrastructure & Automation**
+  - Created `brand.config.json` - centralized brand configuration
+  - Built `scripts/update-brand.js` - automated rebranding script (updated 18 HTML + 4 CSS files)
+  - Built `scripts/jsonld-lint.js` - JSON-LD validator and deduper
+  - Built `scripts/postbuild.sh` - post-build validation script
+  - Created brand assets: `leadstack-logo.svg`, `leadstack-logo-white.svg`, `favicon.png`
+  
+- **Structured Data & SEO**
+  - Added comprehensive JSON-LD schemas (Organization, LocalBusiness, WebSite, BreadcrumbList)
+  - Updated all page titles and meta descriptions for SEO/AEO optimization
+  - Created `robots.txt` with proper disallow rules
+  - Created `sitemap.html` for user-friendly navigation
+  - Added Google Fonts (Poppins for headings, Inter for body)
+  
+- **Previous Changes (October 10, 2025)**
+  - Section Removal: Removed "Why Choose Us" section from homepage
+  - Homepage Cleanup: Removed Home 2 and Home 3 pages completely
+  - Background Restoration: Reverted section background to original
+  - Stock Image Replacement: Replaced placeholder images with professional photography
 
 ### Previous Changes (September 24, 2025)
 - Reorganized project structure with proper `assets/` directory containing CSS, JS, images, icons, and vendor libraries

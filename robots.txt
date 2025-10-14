@@ -1,0 +1,10 @@
+# Leadstack Marketing - robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /scripts/
+Disallow: /scss/
+Disallow: /documentation/
+
+Sitemap: https://www.leadstackmarketing.com/sitemap.xml
+Sitemap: https://www.leadstackmarketing.com/sitemap.html
