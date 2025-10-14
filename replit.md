@@ -21,7 +21,7 @@
     - Lead Generation: phone ringing (incoming calls/leads)
     - SEO: scrabble tiles spelling 'SEO'
     - Backlinks: network connection visual
-    - Digital Real Estate: for sale sign
+    - Digital Real Estate: digital rendering of real estate sign
     - Google Ads: Google logo
     - Meta Ads: Meta logo
   - Total services expanded from 10 to 12
