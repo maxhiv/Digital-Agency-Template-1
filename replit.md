@@ -16,7 +16,9 @@
 ### Latest Changes (October 14, 2025)
 - **HOMEPAGE CLEANUP (Today - Latest)**
   - Removed "Our Offering" section (Website, Android, iOS, Watch, TV, IOT)
-  - Streamlined homepage to focus on core marketing services
+  - Removed "Frequently Ask Question" section from homepage (dedicated FAQ page now available)
+  - Removed "Latest Case Study" section from homepage
+  - Streamlined homepage to focus on core marketing services and contact form
 
 - **FAQ PAGE CREATION**
   - Created comprehensive FAQ page (faq.html) with all 12 service FAQs
