@@ -14,7 +14,11 @@
 ✅ **SETUP COMPLETE** - The project has been successfully configured for the Replit environment and is ready for use.
 
 ### Latest Changes (October 14, 2025)
-- **FAQ PAGE CREATION (Today - Latest)**
+- **HOMEPAGE CLEANUP (Today - Latest)**
+  - Removed "Our Offering" section (Website, Android, iOS, Watch, TV, IOT)
+  - Streamlined homepage to focus on core marketing services
+
+- **FAQ PAGE CREATION**
   - Created comprehensive FAQ page (faq.html) with all 12 service FAQs
   - Added answer-engine optimized Q&A for Lead Generation, GBP, SEO, AEO, Website Design, Landing Pages, Email Marketing, Content Marketing, Backlinks, Digital Real Estate, Google Ads, and Meta Ads
   - Included complete JSON-LD FAQPage structured data for all 36 questions
