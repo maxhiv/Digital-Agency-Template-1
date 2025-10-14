@@ -18,7 +18,7 @@
   - Added Google Ad Management service with Google logo image
   - Added Meta Ad Management service with Meta logo image
   - Updated 6 service images for better visual representation:
-    - Lead Generation: funnel/conversion concept
+    - Lead Generation: phone ringing (incoming calls/leads)
     - SEO: scrabble tiles spelling 'SEO'
     - Backlinks: network connection visual
     - Digital Real Estate: for sale sign
