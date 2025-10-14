@@ -236,14 +236,18 @@ for (const post of blogPosts) {
   // Update title
   html = html.replace(/<title>.*?<\/title>/i, `<title>${post.title}</title>`);
   
-  // Update meta description
+  // Update meta description - ensure it's after title
   if (/<meta[^>]+name=["']description["']/.test(html)) {
     html = html.replace(
       /<meta[^>]+name=["']description["'][^>]*>/i,
       `<meta name="description" content="${post.metaDesc}">`
     );
   } else {
-    html = html.replace(/<\/head>/i, `  <meta name="description" content="${post.metaDesc}">\n</head>`);
+    // Insert after title tag
+    html = html.replace(
+      /(<title>.*?<\/title>)/i,
+      `$1\n    <meta name="description" content="${post.metaDesc}">`
+    );
   }
   
   // Add BlogPosting schema
