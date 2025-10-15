@@ -219,10 +219,10 @@ button {
   }
 }
 .logo {
-  max-width: clamp(180px, 15vw, 280px);
-  max-height: 60px;
+  max-width: clamp(220px, 18vw, 320px);
+  max-height: 70px;
   object-fit: contain;
-  margin: -5px 0;
+  margin: -10px 0;
 }
 
 .ul-bs-row {
