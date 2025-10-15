@@ -222,7 +222,7 @@ button {
   max-width: clamp(1100px, 90vw, 1600px);
   max-height: 350px;
   object-fit: contain;
-  margin: -60px 0;
+  margin: -150px 0;
 }
 
 .ul-bs-row {
