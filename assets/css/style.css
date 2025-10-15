@@ -4080,7 +4080,7 @@ button {
   margin-bottom: 0;
 }
 .ul-footer-about .logo {
-  max-width: clamp(120px, 9.46vw, 180px);
+  max-width: clamp(300px, 23.65vw, 450px);
 }
 .ul-footer-about-txt {
   font-size: clamp(13px, 0.84vw, 16px);
