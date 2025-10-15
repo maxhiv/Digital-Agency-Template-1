@@ -21,8 +21,9 @@
 - **LOGO UPDATE**
   - Added new Leadstack Marketing logo to navigation bar
   - Updated logo across all pages (homepage, about, services, contact, FAQ, blog, error pages)
-  - Logo features gradient purple/orange stacked design with brand name
-  - Added CSS constraints (max-height: 50px) to maintain original nav bar size
+  - Logo features horizontal gradient purple/orange stacked layers with "LEADSTACK MARKETING" text
+  - Final sizing: 1600px max-width, 350px max-height with -150px negative margin
+  - Large, prominent logo while maintaining original compact nav bar size
 
 - **PROFESSIONAL IMAGE UPDATES**
   - Added 18 professional stock images to assets/img folder
