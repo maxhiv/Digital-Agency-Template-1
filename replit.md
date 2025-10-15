@@ -17,6 +17,7 @@
 - **LEAD GENERATION IMAGE UPDATE (Today - Latest)**
   - Replaced lead generation service card image with new lightbulb/network visual
   - Professional image showing business innovation and lead connectivity concept
+  - Updated on both homepage and services page
 
 - **HOMEPAGE SECTION REMOVAL**
   - Removed "Our Development Process" section from homepage
