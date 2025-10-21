@@ -11,7 +11,7 @@ The Envato Digitics template has been successfully transformed into a fully-bran
 - **Company**: Leadstack Marketing
 - **Tagline**: "Stack your leads. Simplify your growth."
 - **Location**: Fairhope, Alabama (Gulf Coast + nationwide)
-- **Contact**: (251) 555-0199 | hello@leadstackmarketing.com
+- **Contact**: 251-716-0460 | max@leadstackmarketing.com
 - **Color Scheme**:
   - Primary: #2563EB
   - Secondary: #7C3AED  

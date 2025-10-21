@@ -6,7 +6,7 @@
 - Name: Leadstack Marketing  
 - Tagline: "Stack your leads. Simplify your growth."
 - Location: Fairhope, Alabama (Gulf Coast + nationwide)
-- Contact: (251) 555-0199 | hello@leadstackmarketing.com
+- Contact: 251-716-0460 | max@leadstackmarketing.com
 
 **Services:** Lead Generation, Google Business Profile Optimization, SEO, Answer Engine Optimization (AEO), Website Design, Landing Pages, Email Marketing, Content Marketing, Backlinks, Digital Real Estate, Google Ad Management, Meta Ad Management
 
@@ -131,7 +131,7 @@
   - Rebranded entire site from Digitics template to Leadstack Marketing
   - Brand identity: "Stack your leads. Simplify your growth."
   - New color scheme: Primary #2563EB, Secondary #7C3AED, Accent #10B981
-  - Contact: (251) 555-0199, hello@leadstackmarketing.com, Fairhope, AL
+  - Contact: 251-716-0460, max@leadstackmarketing.com, Fairhope, AL
   
 - **Brand Infrastructure & Automation**
   - Created `brand.config.json` - centralized brand configuration
